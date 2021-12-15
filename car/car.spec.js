@@ -55,5 +55,8 @@ describe('Car class', () => {
   })
   it('cars have a drive method that take distance and increase odometer', () => {
     const car = new Car('toyota', 'camry')
+    car.drive(5)
+    car.drive(7)
+    expect(car.odometer).toBe(12)
   })
 })
