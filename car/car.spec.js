@@ -38,5 +38,5 @@ describe('buildUser', () => {
 })
 
 describe('Car class', () => {
-  it('')
+  it.todo('constructs cars with make and model')
 })
