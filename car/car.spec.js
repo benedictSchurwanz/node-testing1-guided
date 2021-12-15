@@ -30,9 +30,9 @@ describe('buildUser', () => {
     const expected = { username: 'jacob'}
     // expect(actual).toBe(expected) // DOES NOT WORK unless truly same object
     expect(actual.username).toBe('jacob')
-    expect(actual).toEqual(expected)
     expect(actual).toHaveProperty('username')
     expect(actual).toHaveProperty('username', 'jacob')
-    expect(actual).tome
+    expect(actual).toMatchObject(expected)
+    expect(actual).toEqual(expected)
   })
 })
