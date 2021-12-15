@@ -30,5 +30,6 @@ describe('buildUser', () => {
     const expected = { username: 'jacob'}
     // expect(actual).toBe(expected)
     expect(buildUser('jacob').username).toBe('jacob')
+    expect(actual).toEqual(expected)
   })
 })
