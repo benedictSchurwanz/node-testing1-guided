@@ -53,4 +53,7 @@ describe('Car class', () => {
     const car = new Car('toyota', 'camry')
     expect(car).toMatchObject({ odometer: 0 })
   })
+  it('cars have a drive method that take distance and increase odometer', () => {
+    
+  })
 })
