@@ -1,4 +1,4 @@
 describe('learning unit testing', () => {
   // tests
-  test
+  it('works fine', )
 })
