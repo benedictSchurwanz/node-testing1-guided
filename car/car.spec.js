@@ -40,5 +40,12 @@ describe('buildUser', () => {
 describe('Car class', () => {
   it('constructs cars with make and model', () => {
     const car = new Car('toyota', 'camry')
+    expect(car).toHaveProperty('make', 'toyota')
+    expect(car).toHaveProperty('model', 'camry')
+
+    const actual = new Car("Tesla", "Model 3")
+    const expected = { make: 'Tesla', model: 'Model 3' }
+
+    expect(actual).toEqual(expected)
   })
 })
