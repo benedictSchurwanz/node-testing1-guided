@@ -27,8 +27,8 @@ describe('sum', () => {
 describe('buildUser', () => {
   it('takes username and returns object', () => {
     const actual = buildUser('jacob')
-    const alsoActual = actual
     const expected = { username: 'jacob'}
-    expect(actual).toBe(expected)
+    // expect(actual).toBe(expected)
+    expect(buildUser('jacob').username).toBe('jacob')
   })
 })
