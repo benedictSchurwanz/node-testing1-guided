@@ -14,4 +14,7 @@ describe('learning unit testing', () => {
     expect(sum(3, -5)).toBe(-2)
     expect(sum('2', 2)).toBe('22') // js is weird
   })
+  it('sum returns message if either arg is not a num', () => {
+    
+  })
 })
