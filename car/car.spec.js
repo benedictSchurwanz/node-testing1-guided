@@ -7,6 +7,6 @@ describe('learning unit testing', () => {
     const expected = true
 
     expect(actual).toBe(expected) // assertion
-    expect(giveTrue()).toBe(true) // assertion
+    expect(giveTrue()).not.toBe(true) // assertion
   })
 })
