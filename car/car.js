@@ -12,5 +12,8 @@ exports.buildUser = function (username) {
   return { username, foo: 'bar' }
 }
 exports.Car = class {
-  constructor()
+  constructor(make, model) {
+    this.make = make
+    this.model = model
+  }
 }

@@ -36,3 +36,7 @@ describe('buildUser', () => {
     expect(actual).toMatchObject(expected) // more resilient
   })
 })
+
+describe('Car class', () => {
+  it('')
+})
