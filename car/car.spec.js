@@ -32,5 +32,7 @@ describe('buildUser', () => {
     expect(actual.username).toBe('jacob')
     expect(actual).toEqual(expected)
     expect(actual).toHaveProperty('username')
+    expect(actual).toHaveProperty('username', 'jacob')
+    expect(actual).tome
   })
 })
