@@ -38,6 +38,7 @@ describe('buildUser', () => {
 })
 
 describe('Car class', () => {
+  let car
   it('constructs cars with make and model', () => {
     // jacob
     const car = new Car('toyota', 'camry')
@@ -61,6 +62,6 @@ describe('Car class', () => {
     expect(car).toHaveProperty('odometer', 12)
   })
   it('driveAsync takes a dist, increases od, resolves updated odometer', () => {
-    
+    const car = new Car('toyota', 'camry')
   })
 })
