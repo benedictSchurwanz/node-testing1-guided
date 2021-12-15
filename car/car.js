@@ -9,5 +9,5 @@ exports.sum = function (a, b) {
   return a + b
 }
 exports.buildUser = function (username) {
-  return { username }
+  return { username, foo: 'bar' }
 }
