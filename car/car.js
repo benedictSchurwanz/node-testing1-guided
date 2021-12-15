@@ -4,7 +4,7 @@ exports.giveTrue = function () {
 }
 exports.sum = function (a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
-    
+    return "don't be ridiculous"
   }
   return a + b
 }
