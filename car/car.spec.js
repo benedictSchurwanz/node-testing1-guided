@@ -39,6 +39,9 @@ describe('buildUser', () => {
 
 describe('Car class', () => {
   let car
+  beforeEach(() => {
+    car = new Car('toyota', 'camry')
+  })
   it('constructs cars with make and model', () => {
     // jacob
     const car = new Car('toyota', 'camry')
