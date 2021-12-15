@@ -9,5 +9,5 @@ describe('learning unit testing', () => {
     expect(giveTrue()).not.toBe(false) // assertion
   })
 
-  it.todo('sum can add two numbers')
+  it('sum can add two numbers', () => {})
 })
