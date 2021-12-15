@@ -1,9 +1,12 @@
+const { giveTrue } = require('./car')
+
 describe('learning unit testing', () => {
   // tests
   it('works fine', () => { // test
     // assertions
+    const actual = giveTrue()
     const expected = true
-    const actual = true
+
     expect(actual).toBe(expected) // assertion
     expect(expected).toBe(actual) // another assertion
   })
