@@ -10,6 +10,7 @@
     "url": "git+https://github.com/BloomInstituteOfTechnology/node-testing1-guided.git"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.3",
     "eslint": "^8.4.1",
     "jest": "^27.4.5"
   }
