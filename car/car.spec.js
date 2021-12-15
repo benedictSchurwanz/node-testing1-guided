@@ -25,5 +25,8 @@ describe('sum', () => {
 })
 
 describe('buildUser', () => {
-  
+  it('takes username and returns object', () => {
+    const actual = buildUser('jacob')
+    
+  })
 })
