@@ -11,3 +11,6 @@ exports.sum = function (a, b) {
 exports.buildUser = function (username) {
   return { username, foo: 'bar' }
 }
+exports.Car = class {
+  constructor()
+}
