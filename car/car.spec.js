@@ -13,5 +13,6 @@ describe('learning unit testing', () => {
     expect(sum(3, 5)).toBe(8)
     expect(sum(1, 2)).toBe(3)
     expect(sum(3, -5)).toBe(-2)
+    expect(sum('2', 2)).toBe('22') // js is weird
   })
 })
