@@ -45,7 +45,6 @@ describe('Car class', () => {
 
     const actual = new Car("Tesla", "Model 3")
     const expected = { make: 'Tesla', model: 'Model 3' }
-
     expect(actual).toEqual(expected)
   })
 })
