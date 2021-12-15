@@ -1,4 +1,4 @@
-const { giveTrue } = require('./car')
+const { giveTrue, sum } = require('./car')
 
 describe('learning unit testing', () => {
   it('giveTrue returns true', () => { // test
@@ -9,5 +9,7 @@ describe('learning unit testing', () => {
     expect(giveTrue()).not.toBe(false) // assertion
   })
 
-  it.todo('sum can add two numbers')
+  it('sum can add two numbers', () => {
+    expect(sum(3,5)).toBe(8)
+  })
 })
