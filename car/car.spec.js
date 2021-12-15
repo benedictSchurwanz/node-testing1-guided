@@ -27,12 +27,12 @@ describe('sum', () => {
 describe('buildUser', () => {
   it('takes username and returns object with username', () => {
     const actual = buildUser('jacob')
-    const expected = { username: 'jacob'}
+    const expected = { username: 'jacob', foo: 'bar'}
     // expect(actual).toBe(expected) // DOES NOT WORK unless truly same object
     expect(actual.username).toBe('jacob')
     expect(actual).toHaveProperty('username')
     expect(actual).toHaveProperty('username', 'jacob')
-    expect(actual).toMatchObject(expected)
     expect(actual).toEqual(expected)
+    expect(actual).toMatchObject(expected) // more resilient
   })
 })
