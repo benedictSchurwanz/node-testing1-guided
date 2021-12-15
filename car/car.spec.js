@@ -49,5 +49,8 @@ describe('Car class', () => {
     expect(actual).toEqual(expected)
     expect(actual).toMatchObject(expected)
   })
-  it('constructs cars with odometer set at zero')
+  it('constructs cars with odometer set at zero', () => {
+    const car = new Car('toyota', 'camry')
+    
+  })
 })
