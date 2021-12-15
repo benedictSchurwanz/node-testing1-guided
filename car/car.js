@@ -20,4 +20,8 @@ exports.Car = class {
   drive(distance) {
     this.odometer = this.odometer + distance
   }
+  async driveAsync(distance) {
+    this.odometer = this.odometer + distance
+    return this.odometer
+  }
 }
