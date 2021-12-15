@@ -60,4 +60,7 @@ describe('Car class', () => {
     expect(car.odometer).toBe(12)
     expect(car).toHaveProperty('odometer', 12)
   })
+  it('driveAsync takes a dist, increases od, resolves updated odometer', () => {
+    
+  })
 })
