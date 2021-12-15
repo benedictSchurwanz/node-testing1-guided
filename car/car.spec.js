@@ -28,7 +28,7 @@ describe('buildUser', () => {
   it('takes username and returns object with username', () => {
     const actual = buildUser('jacob')
     const expected = { username: 'jacob'}
-    // expect(actual).toBe(expected)
+    // expect(actual).toBe(expected) // DOES NOT WORK!!!!
     expect(buildUser('jacob').username).toBe('jacob')
     expect(actual).toEqual(expected)
     expect(actual).toHaveProperty('username')
