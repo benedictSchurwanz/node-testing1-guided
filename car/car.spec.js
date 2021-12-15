@@ -38,9 +38,8 @@ describe('buildUser', () => {
 })
 
 describe('Car class', () => {
-  let car
   beforeEach(() => {
-    car = new Car('toyota', 'camry')
+    let car = new Car('toyota', 'camry')
   })
   it('constructs cars with make and model', () => {
     // jacob
@@ -62,6 +61,6 @@ describe('Car class', () => {
     expect(car).toHaveProperty('odometer', 12)
   })
   it('driveAsync takes a dist, increases od, resolves updated odometer', () => {
-    
+
   })
 })
