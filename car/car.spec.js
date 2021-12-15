@@ -41,7 +41,7 @@ describe('Car class', () => {
   let car
   beforeEach(() => {
     car = new Car('toyota', 'camry')
-  })
+  }) // afterEach, beforeAll, afterAll
   it('constructs cars with make and model', () => {
     // jacob
     expect(car).toHaveProperty('make', 'toyota')
