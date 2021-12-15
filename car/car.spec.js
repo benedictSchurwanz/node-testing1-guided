@@ -58,5 +58,6 @@ describe('Car class', () => {
     car.drive(5)
     car.drive(7)
     expect(car.odometer).toBe(12)
+    expect(car).toHaveProperty('odometer', 12)
   })
 })
