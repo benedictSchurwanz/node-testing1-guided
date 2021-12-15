@@ -1,4 +1,4 @@
-const { giveTrue, sum } = require('./car')
+const { giveTrue, sum, buildUser } = require('./car')
 
 describe('giveTrue function', () => {
   it('giveTrue returns true', () => { // test
@@ -24,3 +24,6 @@ describe('sum', () => {
   })
 })
 
+describe('buildUser', () => {
+  
+})
