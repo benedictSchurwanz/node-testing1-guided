@@ -53,17 +53,15 @@ describe('Car class', () => {
     expect(actual).toMatchObject(expected)
   })
   it('constructs cars with odometer set at zero', () => {
-    const car = new Car('toyota', 'camry')
     expect(car).toMatchObject({ odometer: 0 })
   })
   it('cars have a drive method that take distance and increase odometer', () => {
-    const car = new Car('toyota', 'camry')
     car.drive(5)
     car.drive(7)
     expect(car.odometer).toBe(12)
     expect(car).toHaveProperty('odometer', 12)
   })
   it('driveAsync takes a dist, increases od, resolves updated odometer', () => {
-    const car = new Car('toyota', 'camry')
+    
   })
 })
