@@ -65,6 +65,6 @@ describe('Car class', () => {
     let updatedOdometer = await car.driveAsync(10)
     expect(updatedOdometer).toBe(10)
     updatedOdometer = await car.driveAsync(20)
-    expect(updatedOdometer).toBe(50)
+    expect(updatedOdometer).toBe(30)
   })
 })
