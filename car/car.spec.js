@@ -8,4 +8,6 @@ describe('learning unit testing', () => {
     expect(actual).toBe(expected) // assertion
     expect(giveTrue()).not.toBe(false) // assertion
   })
+
+  it.todo('sum can add two numbers')
 })
