@@ -1,4 +1,4 @@
-const { giveTrue, sum, buildUser } = require('./car')
+const { giveTrue, sum, buildUser, Car } = require('./car')
 
 describe('giveTrue function', () => {
   it('giveTrue returns true', () => { // test
@@ -38,5 +38,7 @@ describe('buildUser', () => {
 })
 
 describe('Car class', () => {
-  it.todo('constructs cars with make and model')
+  it('constructs cars with make and model', () => {
+    const car = new Car('toyota', 'camry')
+  })
 })
